@@ -1,0 +1,687 @@
+/* ================
+extra small device
+================= */
+
+/* navbar css */
+@media (max-width:575px) {
+
+    .navbar .navbar-brand {
+        position: unset !important;
+        transform: skewX(0deg);
+        -webkit-transform: skewX(0deg);
+        -moz-transform: skewX(0deg);
+        -ms-transform: skewX(0deg);
+        -o-transform: skewX(0deg);
+        padding: 0px 20px;
+    }
+
+    .navbar .navbar-brand img {
+        transform: skewX(0deg) !important;
+    }
+
+    .navbar-light .navbar-toggler {
+        border: 2px solid #fff;
+        border-color: #fff;
+        margin-right: 10px;
+
+    }
+
+    .navbar-light .navbar-toggler i {
+        color: #fff;
+
+    }
+
+    .navbar-toggler:focus {
+
+        box-shadow: none;
+    }
+
+    .navbar-nav {
+        align-items: flex-end;
+        justify-content: end;
+    }
+
+    .navbar-light .navbar-nav {
+        background: rgb(53, 53, 53, .6);
+        width: 150px;
+    }
+
+    .navbar-light .navbar-nav .nav-link {
+        width: 150px;
+        text-align: center;
+    }
+
+    .navbar-light .navbar-nav .nav-link::before {
+        width: 0%;
+        height: 100%;
+    }
+
+    .navbar-light .navbar-nav .nav-link:hover::before {
+        width: 100%;
+    }
+
+    /* navbar css ends*/
+
+    /* banner css starts*/
+    #banner .bg1 h4::before,
+    #banner .bg1 h4::after,
+    #banner .bg1 h1::before,
+    #banner .bg1 h1::after,
+    #banner .bg1 p::before,
+    #banner .bg1 p::after {
+        display: none;
+    }
+
+    #banner .banner-item h4 {
+        font-size: 24px;
+    }
+
+    #banner .banner-item h1 {
+        font-size: 48px;
+    }
+
+
+    /* banner css ends*/
+
+    /* about css starts*/
+
+    #about .about-details p {
+        padding: 0;
+    }
+
+    #about .about-details p:last-of-type {
+        padding-bottom: 25px;
+    }
+
+    #about {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    /* about css ends*/
+
+    /* gallery css starts*/
+    #gallery {
+        margin-bottom: 50px;
+    }
+
+    /* gallery css ends*/
+
+    /* team css starts*/
+    #team {
+        margin-bottom: 0px;
+    }
+
+    #team .team-member {
+        margin-top: 40px;
+    }
+
+    /* team css ends*/
+
+    /* testimonial css starts*/
+    #testimonial {
+        margin-bottom: 50px;
+    }
+
+    /* testimonial css ends*/
+
+    /* membership css starts*/
+
+    #membership {
+        margin-bottom: 50px;
+    }
+
+    #membership .membership-item .membership-price .membership-overlay span {
+        font-size: 40px;
+    }
+
+    /* membership css ends*/
+
+    /* funfact css starts*/
+    #funfact .fun-item {
+        text-align: center;
+        padding-bottom: 20px;
+    }
+
+    #funfact {
+        padding-bottom: 20px;
+        margin-bottom: 40px;
+    }
+
+    /* funfact css ends*/
+
+    /* routine starts */
+    #routine {
+        margin-bottom: 50px;
+    }
+
+    #routine .nav-tabs .nav-item {
+        width: 100%;
+        margin-bottom: 2px;
+    }
+
+    #routine .main-routine ul li {
+        width: 100%;
+    }
+
+    /* routine ends */
+
+    /* footer ends */
+    footer .footer-logo {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    /* footer ends */
+
+
+
+}
+
+/* ==============
+extra small device ends
+================= */
+
+/* ==================
+small device starts
+=====================*/
+
+
+
+@media (min-width:576px) and (max-width:767px) {
+
+    #banner .bg1 h4::before,
+    #banner .bg1 h4::after,
+    #banner .bg1 h1::before,
+    #banner .bg1 h1::after,
+    #banner .bg1 p::before,
+    #banner .bg1 p::after {
+        display: none;
+    }
+
+    .navbar .navbar-brand {
+        position: unset !important;
+        transform: skewX(0deg);
+        -webkit-transform: skewX(0deg);
+        -moz-transform: skewX(0deg);
+        -ms-transform: skewX(0deg);
+        -o-transform: skewX(0deg);
+        padding: 0px 20px;
+    }
+
+    .navbar .navbar-brand img {
+        transform: skewX(0deg) !important;
+    }
+
+    .navbar-light .navbar-toggler {
+        border: 2px solid #e23e38;
+        margin-right: 10px;
+
+    }
+
+    .navbar-light .navbar-toggler i {
+        color: #e23e38;
+
+    }
+
+    .navbar-toggler:focus {
+
+        box-shadow: none;
+    }
+
+    .navbar-nav {
+        align-items: flex-end;
+        justify-content: end;
+    }
+
+    .navbar-light .navbar-nav {
+        background: rgb(53, 53, 53, .6);
+        width: 150px;
+    }
+
+    .navbar-light .navbar-nav .nav-link {
+        width: 150px;
+        text-align: center;
+    }
+
+    .navbar-light .navbar-nav .nav-link::before {
+        width: 0%;
+        height: 100%;
+    }
+
+    .navbar-light .navbar-nav .nav-link:hover::before {
+        width: 100%;
+    }
+
+    /* navbar css ends*/
+
+    /* banner css starts*/
+
+    #banner .banner-item h4 {
+        font-size: 28px;
+    }
+
+    #banner .banner-item h1 {
+        font-size: 52px;
+    }
+
+    /* banner css ends*/
+
+    /* about css starts*/
+
+    #about .about-details p {
+        padding: 0;
+    }
+
+    #about .about-details p:last-of-type {
+        padding-bottom: 25px;
+    }
+
+    #about {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    /* about css ends*/
+
+    /* gallery css starts*/
+
+    #gallery {
+        margin-bottom: 60px;
+    }
+
+    /* gallery css ends*/
+
+    /* team css starts*/
+    #team {
+        margin-bottom: 0px;
+    }
+
+    #team .team-member {
+        margin-top: 40px;
+    }
+
+    /* team css ends*/
+
+    /* testimonial css starts*/
+
+    #testimonial {
+        margin-bottom: 60px;
+    }
+
+    /* testimonial css ends*/
+
+    /* membership css starts*/
+
+    #membership {
+        margin-bottom: 60px;
+    }
+
+    #membership .membership-item .membership-price .membership-overlay span {
+        font-size: 40px;
+    }
+
+    /* membership css ends*/
+
+    /* funfact css starts*/
+    #funfact .fun-item {
+        text-align: center;
+        padding-bottom: 20px;
+    }
+
+    #funfact {
+        padding-bottom: 20px;
+        margin-bottom: 60px;
+    }
+
+    /* funfact css ends*/
+
+    /* routine starts */
+    #routine {
+        margin-bottom: 50px;
+    }
+
+    #routine .nav-tabs .nav-item {
+        width: 49%;
+        margin: 2px;
+
+    }
+
+    #routine .main-routine ul li {
+        width: 50%;
+    }
+
+    /* routine css ends*/
+
+    /* brand starts */
+
+    #brand {
+        margin-bottom: 60px;
+    }
+
+
+    /* brand ends */
+
+    /* footer starts */
+    footer .footer-logo {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    footer .footer-main h5 {
+        line-height: 20px;
+        padding-top: 20px !important;
+        padding-bottom: 20px !important;
+    }
+
+    /* footer ends */
+
+}
+
+/* ================
+small device ends
+=================== */
+
+/* ================
+medium device starts
+=================== */
+
+@media(min-width:768px) and (max-width:991px){
+
+    .navbar .navbar-brand {
+        position: unset !important;
+        transform: skewX(0deg);
+        -webkit-transform: skewX(0deg);
+        -moz-transform: skewX(0deg);
+        -ms-transform: skewX(0deg);
+        -o-transform: skewX(0deg);
+        padding: 0px 20px;
+    }
+
+    .navbar .navbar-brand img {
+        transform: skewX(0deg) !important;
+    }
+
+    .navbar-light .navbar-toggler {
+        border: 2px solid #e23e38;
+        margin-right: 10px;
+
+    }
+
+    .navbar-light .navbar-toggler i {
+        color: #e23e38;
+
+    }
+
+    .navbar-toggler:focus {
+
+        box-shadow: none;
+    }
+
+    .navbar-nav {
+        align-items: flex-end;
+        justify-content: end;
+    }
+
+    
+
+    .navbar-light .navbar-nav {
+        background: rgb(53, 53, 53, .6);
+        width: 150px;
+    }
+
+    .navbar-light .navbar-nav .nav-link {
+        width: 150px;
+        text-align: center;
+    }
+
+    .navbar-light .navbar-nav .nav-link::before {
+        width: 0%;
+        height: 100%;
+    }
+
+    .navbar-light .navbar-nav .nav-link:hover::before {
+        width: 100%;
+    }
+
+    /* navbar css ends*/
+
+    /* banner css starts*/
+
+    #banner .banner-item h4 {
+        font-size: 28px;
+    }
+
+    #banner .banner-item h1 {
+        font-size: 52px;
+    }
+
+    #banner .bg1 h4::before{
+        left: 46px;
+    }
+    #banner .bg1 h4::after{
+        right: 38px;
+    }
+    #banner .bg1 h1::before{
+        left: 44px;
+        top: -11px;
+    }
+    #banner .bg1 h1::after{
+        right: 39px;
+        top: -11px;
+    }
+
+    #banner .bg1 p::before {
+        width: 79px;
+        left: 48px;
+        top: 100px;
+    }
+    #banner .bg1 p::after {
+        width: 54px;
+        right: 41px;
+        top: 100px;
+    }
+
+    #banner .banner-item {
+        padding-top: 270px;
+   
+    }
+
+    #banner .bg1 p{
+        padding-right: 50px;
+        padding-left: 50px;
+    }
+
+
+
+    /* banner css ends*/
+
+    /* about css starts*/
+
+    #about .about-details p {
+        padding: 0;
+    }
+
+    #about .about-details p:last-of-type {
+        padding-bottom: 25px;
+    }
+
+    #about {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    /* about css ends*/
+
+    /* gallery css starts*/
+
+    #gallery {
+        margin-bottom: 60px;
+    }
+
+    /* gallery css ends*/
+
+    /* team css starts */
+    #team {
+        margin-bottom: 0px;
+    }
+
+    #team .team-member {
+        margin-top: 40px;
+    }
+
+    #team .team-member .card-body {
+        padding: 20px 15px !important;
+    }
+
+    #team .team-member .card-body p{
+        padding-left: 15px!important;
+        padding-right: 15px!important;
+    }
+    
+    /* team css ends*/
+
+    /* testimonial css starts*/
+    #testimonial {
+        margin-bottom: 60px;
+    }
+
+    /* testimonial css ends*/
+
+    /* membership css starts*/
+
+    #membership {
+        margin-bottom: 60px;
+    }
+
+    #membership .membership-item .membership-price .membership-overlay span {
+        font-size: 40px;
+    }
+
+    /* membership css ends*/
+
+    /* funfact css starts*/
+    #funfact .fun-item {
+        text-align: center;
+        padding-bottom: 20px;
+    }
+
+    #funfact .fun-item p{
+        font-size: 15px;
+    }
+
+    #funfact {
+        padding-bottom: 20px;
+        margin-bottom: 60px;
+    }
+
+    /* funfact css ends*/
+
+    /* routine starts */
+    #routine {
+        margin-bottom: 50px;
+    }
+
+
+    #routine .main-routine ul li {
+        width: 25%;
+    }
+
+    #routine .main-routine ul li{
+        padding-top: 30px !important;
+        padding-bottom: 30px !important;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    /* routine css ends*/
+
+    /* brand starts */
+
+    #brand {
+        margin-bottom: 60px;
+    }
+
+
+    /* brand ends */
+
+    /* footer starts */
+    footer .footer-logo {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+
+    footer .footer-main h5 {
+        line-height: 20px;
+        padding-top: 20px !important;
+        padding-bottom: 20px !important;
+    }
+
+    /* footer ends */
+
+}
+
+/* ================
+medium device ends
+=================== */
+
+
+/* ================
+large device starts
+=================== */
+
+
+@media (min-width:992px) and (max-width:1199px){
+
+    
+/* banner css */
+
+    #banner .bg1 h4::before{
+        left: -40px;
+    }
+    #banner .bg1 h4::after{
+        right: -62px;
+        width: 145px;
+    }
+    #banner .bg1 h1::before{
+        left: -40px;
+    }
+    #banner .bg1 h1::after{
+        right: -62px;
+    }
+
+    #banner .bg1 p::before {
+        width: 42px;
+        left: -37px;
+    }
+
+    #banner .bg1 p::after {
+        width: 33px;
+        right: -62px;
+    }
+    #banner .bg1 p {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    /* banner css end */
+    /* team css starts*/
+     #team {
+        margin-bottom: 0px;
+    }
+
+    #team .team-member {
+        margin-top: 40px;
+    }
+
+    #team .team-member .card-body {
+        padding: 20px 0px !important;
+    }
+
+    /* team css ends*/
+
+}
+/* ================
+large device ends
+=================== */
